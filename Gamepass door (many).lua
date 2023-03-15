@@ -1,3 +1,4 @@
+-- put this in a part
 local MS = game:GetService("MarketplaceService")
 local Gamepasses = {
 	{ id = 18857464, name = "VIP" },
