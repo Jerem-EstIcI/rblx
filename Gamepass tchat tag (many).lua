@@ -1,3 +1,4 @@
+
 local gamepassIdVIP = 18857464 -- Gamepass VIP ID
 local gamepassIdMiniVIP = 18857399 -- Gamepass Mini VIP ID
 
@@ -7,7 +8,7 @@ game.Players.PlayerAdded:Connect(function(player)
 	if service:UserOwnsGamePassAsync(player.UserId, gamepassIdVIP) then
 		local tags = {
 			{
-				TagText = "VIP", -- Tag
+				TagText = "VIP", -- Tag -- first to be give
 				TagColor = Color3.fromRGB(255, 255, 0) -- VIP Color
 			}
 		}
@@ -23,7 +24,7 @@ game.Players.PlayerAdded:Connect(function(player)
 	elseif service:UserOwnsGamePassAsync(player.UserId, gamepassIdMiniVIP) then
 		local tags = {
 			{
-				TagText = "Mini VIP", -- Tag
+				TagText = "Mini VIP", -- Tag -- second to be give if he dont have fist one
 				TagColor = Color3.fromRGB(0, 255, 0) -- Mini VIP Color
 			}
 		}
