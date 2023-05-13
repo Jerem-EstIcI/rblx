@@ -1,7 +1,7 @@
 local telePart = script.Parent
 local TeleportService = game:GetService('TeleportService')
-local placeID = (6953314895)
---replace this part
+local placeID = (0) --- Place ID
+
 local canTeleport = true
 
 local function otherGame(otherPart)
