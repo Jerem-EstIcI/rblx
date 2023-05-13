@@ -1,8 +1,8 @@
 -- put this in a part
 local MS = game:GetService("MarketplaceService")
 local Gamepasses = {
-	{ id = 18857464, name = "VIP" },
-	{ id = 18857399, name = "MiniVIP" }
+	{ id = 0, name = "GAMEPASS#1" },
+	{ id = 0, name = "GAMEPASS#2" }
 }
 local OpenTime = 1 -- The time the door is open for.
 local OpenTrans = 0.5 -- The transparency of the door when it is open.
